@@ -1,9 +1,0 @@
-reset;
-model ElectricVehicle.mod;
-data ElectricVehicle.dat;
-option solver cplex;
-solve;
-display flow;
-display numbervehiclelink;
-display chosenvehicle;
-display totalcost;
